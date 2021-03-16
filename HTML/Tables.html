@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+
+
+<!-- Table Basics
+                       ● Create a table containing phone specification data
+                       ● Each row should represent a new phone
+                       ● Content of the first column is the phone name
+                       ● The second column should contain the phone image (height of 100px)
+                       ● The third column should contain the amount of ram
+                       ● The fourth column should contain camera information
+                       ● The fifth column should contain info about internal memory
+                       ● Table should have at least three rows!
+                       ● Add column title for each column using th -->
+
+<!-- Merging cells across rows
+                       ● Add a new column to the table
+                       ● Title of the column should be External antenna
+                       ● Merge all cells in this column into one cell except the column title
+                       ● Value inside the cell should be something like NO -->
+
+<!-- Merging columns
+                       ● Add a row in the table before the first row
+                       ● The new row should contain one cell stretching across all columns
+                       ● Content of the cell should be something like Specification -->
+
+
+<body>
+    <table border="3">
+        <th colspan="6">Specification</th>
+        <tr>
+            <th>Phone Name</th>
+            <th>Phone Image</th>
+            <th>RAM</th>
+            <th>Camera Info</th>
+            <th>Internal Memory</th>
+            <th>External antenna</th>
+        </tr>
+
+        <tr>
+            <th>Samsung S10</th>
+            <td><img src="https://images.samsung.com/is/image/samsung/rs-galaxy-a10-a105-sm-a105fzkusee-frontblack-166831607?$684_547_PNG$"
+                    height="100px">
+            </td>
+            <td>8GB</td>
+            <td>16MP</td>
+            <td>128GB</td>
+            <td align=center rowspan="3">NO</td>
+        </tr>
+
+        <tr>
+            <th>Huawei P30 PRO</th>
+            <td><img src="https://img.gigatron.rs/img/products/large/image5c9a3858636f6.png" height="100px">
+            </td>
+            <td>8GB</td>
+            <td>20MP</td>
+            <td>256GB</td>
+        </tr>
+
+        <tr>
+            <th>Xiaomi Mi10 PRO</th>
+            <td> <img src="https://fdn2.gsmarena.com/vv/bigpic/xiaomi-mi-10-pro-5g.jpg" height="100px"> </td>
+            <td>12GB RAM</td>
+            <td>108MP</td>
+            <td>512GB</td>
+        </tr>
+
+
+    </table>
+
+
+</body>
+
+</html>

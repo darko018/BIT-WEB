@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout using table</title>
+</head>
+
+<!-- Layout using table (centered column)
+                               ● Create a three column layout
+                               ● Center column should be 960px wide
+                               ● Center column should contain
+                               - main title
+                               - image (same width as column)
+                               - multiple text paragraphs -->
+
+<!-- Future layout organization (table in the table)
+
+                   ● Rearrange paragraphs that you made in the previous example
+                   ● Center column should be split in two columns
+                   ● Even paragraphs should go in the left column and odd ones in the right column -->
+
+<body>
+    <table border="1">
+        <tr>
+            <th>Side title 1</th>
+            <th width="960px">Main Title</th>
+            <th>Side title 2</th>
+        </tr>
+        <tr>
+            <td rowspan="4">Sidebar 1</td>
+            <td>
+                <img src="/pictures/talia-BHlpqQMWDSc-unsplash.jpg" alt="Car" width="960px" />
+                <table border="1" width="100%">
+                    <tr>
+                        <th>Even paragraphs</th>
+                        <th>Odd paragraphs</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Paragraf 2</p>
+                        </td>
+                        <td>
+                            <p>Paragraf 1</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Paragraf 4</p>
+                        </td>
+                        <td>
+                            <p>Paragraf 3</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td rowspan="4">Sidebar 2</td>
+        </tr>
+    </table>
+</body>
+
+</html>
