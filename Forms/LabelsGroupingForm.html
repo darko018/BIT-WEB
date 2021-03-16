@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels/Grouping</title>
+</head>
+
+<!-- Labels/Grouping
+                          ● Creates a form used for catering reservations
+                          ● The form contains multiple elements split into groups
+                          ● Each element should have a label assigned to it -->
+
+<!-- First group
+                          ● Name of the group should be Personal data;
+                          ● The first field is for the name
+                          ● The second one is for the email address
+                          ● The third is for the phone number -->
+
+<!-- Second group
+                          ● Name of the group should be Location;
+                          ● It should contain fields for:
+                          ○ City
+                          ○ Street
+                          ○ Street number -->
+
+<!-- Third group
+                          ● Name of the group should be Event info;
+                          ● The first element is dropdown containing the following options:
+                          ○ birthday
+                          ○ wedding (should be selected by default)
+                          ○ company
+                          ● The second element is for getting number of expected guests and it’s
+                          an input type element
+                          ● Placeholder is a number you choose -->
+
+<body>
+    <form action="" method="post">
+        <div class="personal-data">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="reservation_name" placeholder="Write Your Name" required>
+        </div>
+        <br>
+        <div class="personal-data">
+            <label for="email">Your E-mail</label>
+            <input type="email" id="email" name="reservation_email" placeholder="john.doe@email.com" required>
+        </div>
+        <br>
+        <div class="personal-data">
+            <label for="phone">Your Phone</label>
+            <input type="tel" id="phone" name="reservation_phone" placeholder="060/000-00-00" required>
+        </div>
+        <hr>
+        <form action="" method="post">
+            <div class="location-data">
+                <label for="city">City</label>
+                <input type="text" id="city" name="location_city" placeholder="New York" required>
+            </div>
+            <br>
+            <div class="location-data">
+                <label for="Street">Your Street</label>
+                <input type="text" id="street" name="location_street" placeholder="Nade Tomic" required>
+            </div>
+            <br>
+            <div class="location-data">
+                <label for="number">Your Street Number</label>
+                <input type="number" id="number" name="location_number" placeholder="32" required>
+            </div>
+            <hr>
+            <div class="event-info">
+                <label for="event-selection">Event info</label>
+                <select id="event-selection" name="event_info" required>
+                    <option value="wedding">Wedding</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="company">Company</option>
+                </select>
+            </div>
+            <br>
+            <div class="guest-data">
+                <label for="guest">Number of expected guests</label>
+                <input type="input" id="number1" name="guest-data_number" placeholder="200" required>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+</body>
+
+</html>

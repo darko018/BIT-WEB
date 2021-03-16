@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset/Button/Hidden</title>
+</head>
+
+<!-- Reset/Button/Hidden
+              ● Create a form that contains multiple elements (text, textarea, radio)
+              ● At the end of the form, there are two buttons:
+              ○ The first one is a reset button used for resetting form
+              ○ The second button contains an image and text inside it (it's a submit
+              button) -->
+
+<body>
+    <form action="" method="GET">
+        <div>
+            <label for="text">Write some text here:</label>
+            <input type="text" name="text" size="20" maxlength="30" required />
+        </div>
+        <br>
+        <div>
+            <label for="textarea">Text area</label>
+            <textarea name="textarea" cols="30" rows="10" placeholder="You can write here anything...."></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="first" value="get"> Jazz <br>
+            <input type="radio" name="first" value="post"> Disco<br>
+            <input type="radio" name="first" value="both"> Hip-Hop<br>
+        </div>
+        <br>
+        <button type="reset">Reset</button>
+        <br>
+        <br>
+        <button class="btn">
+            <div id="btn_container">
+                <img src="/pictures/iconmonstr-key-12-96.png" width="30" height="30" />
+                <span class="btn-txt">It's a submit button</span>
+            </div>
+        </button>
+    </form>
+
+
+</body>
+
+</html>

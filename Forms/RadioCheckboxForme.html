@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea/Radio/Checkbox Forme</title>
+</head>
+
+<!-- Textarea/Radio/Checkbox
+                    ● Create a page that simulates a school quiz, containing multiple questions:
+                    ● The first question should contain multiple options out of which the student
+                    can select only one
+                    ● The second quiz question has multiple options out of which the user can
+                    select several
+                    ● The third question should require from user to insert some long text -->
+
+
+
+<body>
+    <form action="/zadaci/Formevezba.html" method="GET">
+        <h1>School Quiz</h1>
+        <br>
+        <h2>1. Which of request method is more secure to use?</h2>
+        <div>
+            <input type="radio" name="first" value="get"> GET <br>
+            <input type="radio" name="first" value="post"> POST<br>
+            <input type="radio" name="first" value="both"> BOTH<br>
+        </div>
+        <div>
+            <h2>2.Which of the next element are block elements?</h2>
+            <input type="checkbox" name="second" value="h1"> h1 <br>
+            <input type="checkbox" name="second" value="div"> div<br>
+            <input type="checkbox" name="second" value="span"> span<br>
+            <input type="checkbox" name="second" value="p"> p <br>
+            <input type="checkbox" name="second" value="img"> img<br>
+        </div>
+
+        <div>
+            <h2>3.Insert some long text</h2>
+            <textarea name="third" cols="50" rows="15" placeholder="Write some text..."></textarea>
+        </div>
+    </form>
+    <button type="submit">Send</button>
+</body>
+
+</html>
