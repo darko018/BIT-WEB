@@ -1,0 +1,47 @@
+html {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.first {
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    
+}
+
+.second {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.third span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.first q {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.second q {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.third q {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: "Chango-Regular";
+src: url(/CSS/Colors/textcolor/fonts/Chango-Regular.ttf);
+}
+.first {
+    font-family: "Chango-Regular";
+}
+
+.title {
+    font-family: 'Chango', cursive;
+    
+}

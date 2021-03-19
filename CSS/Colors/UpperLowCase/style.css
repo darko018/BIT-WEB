@@ -1,0 +1,21 @@
+.first {
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.second {
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+
+.third {
+    text-align: center;
+}
+
+    
+    
+
