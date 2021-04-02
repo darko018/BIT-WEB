@@ -1,0 +1,48 @@
+.maindiv {
+    margin: 0;
+    padding: 0;
+}
+.div1 {
+    text-align: center;
+}
+
+.div2 {
+    margin-right: 300px;
+    margin-left: 200px;
+}
+
+.div3 {
+    margin-right: 300px;
+    margin-left: 200px;
+}
+
+.img1 {
+    position: relative;
+    top: 50px;
+    left: 300px;
+    margin-bottom: 50px;
+}
+
+.img2 {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.img3 {
+    position: absolute;
+    top: 890px;
+    right: 620px;
+}
+
+.butt {
+    position: fixed;
+    float: right;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgb(252, 252, 252);
+    letter-spacing: 0px;
+    border: none;
+    width: 70px;
+    height: 70px;
+}

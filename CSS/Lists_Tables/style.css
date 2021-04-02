@@ -1,0 +1,26 @@
+.unordered1 {
+    list-style-type: circle;
+}
+
+.unordered2 {
+    list-style-type: square;
+}
+
+.ordered1 {
+    list-style-type: upper-alpha;
+}
+
+.ordered2 {
+    list-style-type: upper-roman;
+}
+
+.unordered3 {
+    list-style-image: url(/pictures/iconmonstr-coffee-7-32.png);
+    width: 200px;
+}
+
+.unordered4 {
+    list-style-image: url(/pictures/iconmonstr-coffee-7-32.png);
+    width: 200px;
+    list-style-position: inside;
+}

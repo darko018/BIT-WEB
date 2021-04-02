@@ -1,0 +1,44 @@
+.one {
+    background-color: yellow;
+    border-style: dashed;
+    border-width: 5px thick;
+    border-color: red;
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
+    width: 300px;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.two {
+    background-color: yellow;
+    border-style: solid;
+    border-color: green;
+    padding-top: 50px;
+    width: 400px;
+    margin: 0 auto;
+    margin-right: 20px;
+    padding: 0px;
+    visibility: hidden;
+}
+
+.three {
+    background-color: yellow;
+    border-style: dashed;
+    border-width: 5px thick;
+    border-color: red;
+    padding: 50px 50px 50px 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 20px;
+    padding: 0px;
+    visibility: hidden;
+}
+
+.title1 {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,30 @@
+.head {
+    background-color: red;
+    height: 35px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .tabl {
+    text-align: center;
+    margin: 45px auto;
+    max-height: 100px;
+    padding: 10px 0;
+    border-collapse: collapse;
+  }
+  .row,
+  .row-3:hover {
+    background-color:yellow;
+  }
+  .table-rest {
+  }
+  table img {
+    height: 100px;
+  }
+  .row-2 {
+    background-color: rgb(153, 168, 184);
+  }
+  .row-2:hover{
+    background-color: yellow;
+  }
