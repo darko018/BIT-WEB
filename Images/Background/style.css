@@ -1,0 +1,13 @@
+body {
+    /* background-image:url(/pictures/background-repeat-sheep.png);
+    background-repeat: repeat;
+    background-attachment: fixed; */
+    background-image: url(/pictures/DontRepeatYourself-400x400.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+

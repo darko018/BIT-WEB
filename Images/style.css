@@ -1,0 +1,20 @@
+.img1 {
+    display: block;
+    height: 200px;
+    float: right;
+   
+}
+
+.img2 {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+
+.img3 {
+    display: block;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
