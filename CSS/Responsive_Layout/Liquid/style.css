@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+header {
+    margin: 25px 0 25px 0;
+}
+img {
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+h1 {
+    padding: 15px;
+    font-size: 44px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    text-indent: 10px;
+    margin-bottom: 15px;
+}
+aside {
+    width: 33.3%;
+    display: inline-block;
+    padding-right: 25px;
+}
+main {
+    width: 66.6%;
+    float: right;
+    border-left: 2px solid black;
+    padding-left: 25px;
+}
+article {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+}
+.container {
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+    padding: 10px 0 25px 0;
+}
+.header-img {
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 4px;
+}
+img {
+    width: 100%;
+    padding: 10px;
+}
+ul {
+    margin: 10px 0 10px 0;
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 4px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+    padding: 7px;
+    font-size: 12px;
+}
+li:last-child {
+    border:none;
+}
+ul li:hover {
+    background-color: rgb(66,139,202);
+}
+ul li:hover a{
+    color: white; 
+}
+article {
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 4px;
+    margin: 20px 0 20px 0;
+}
+article p {
+    padding: 0 10px 15px 10px ;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        
+        float: left;
+        padding-left: 5px;
+    }
+    header {
+        position: relative;
+    }
+    li {
+        display: inline-block;
+        border: none;
+        font-size: 18px;
+    }
+    ul {
+        border: none;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 1px;
+    }
+    ul li:hover {
+        border-radius: 5px;
+    }
+    article {
+        position: relative;
+        top: 100px;
+        text-align: left;
+    }
+    .article-img {
+        width: 33%;
+    }
+  p {
+        position: relative;
+        margin-top: 30px;
+        width: 60%;
+        float: right;
+        margin: 0 auto;
+        vertical-align: middle;
+        bottom: -50px;
+        left: -50px;
+    
+}
+
+@media (min-width: 1068px){
+    .container {
+        margin: 0 auto;
+    }
+
+    .box {
+        display: inline-block;
+        width: 33%;
+    }
+    .article-img {
+        width: 100%;
+    }
+    article p {
+        display: inline-block;
+        width: 66%;
+        position: relative;
+        top: 10px;
+        text-align: center;
+        left: -70px;
+        border: none;
+    }   
+    article {
+        border: none;
+
+    }
+    ul li:hover {
+        background-color: rgb(66,139,202);
+    }
+    .box {
+        margin-top: -70px;
+    }
+    .clearfix:after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+
+}
