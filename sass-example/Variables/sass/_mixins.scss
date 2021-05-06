@@ -1,0 +1,17 @@
+// Mixins
+// ● Create mixins for text shadow
+// ● Create mixins for box shadow
+// ● Create a page with multiple elements
+// ● Use the mixin for text shadow on one element
+// ● For some other element, use the mixin for box shadow
+
+
+// ----------- Mixins --------------- //
+
+@mixin text-shadow ($shadow) {
+    text-shadow: $shadow;
+}
+@mixin box-shadow($box) {
+    box-shadow: $box;
+}
+
