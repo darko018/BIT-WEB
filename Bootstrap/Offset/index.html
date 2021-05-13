@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <title>Offset</title>
+</head>
+
+<!-- Offset
+● Create three rows
+● Columns in the first row don’t have any offset
+● Columns in the second and third rows should have offset applied -->
+
+<body>
+
+    <div class="container">
+
+        <div class="row gx-2">
+            <div class="col-md-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">1</div>
+            </div>
+            <div class="col-md-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">2</div>
+            </div>
+        </div>
+
+        <div class="row gx-2">
+            <div class="col-md-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">3</div>
+            </div>
+            <div class="col-md-4 gy-2 offset-md-3">
+                <div class="p-1 bg-light border rounded-1">4 (offset 3)</div>
+            </div>
+        </div>
+
+        <div class="row gx-2">
+            <div class="col-md-4 gy-2 offset-md-3">
+                <div class=" bg-light p-1 border rounded-1">5 (offset 3)</div>
+            </div>
+            <div class="col-md-4 gy-2 offset-md-1">
+                <div class=" bg-light p-1 border rounded-1">6 (offset 1)</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bundle Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

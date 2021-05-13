@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- Main Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Basic Grid</title>
+</head>
+
+<!-- Basic Grid
+Create a grid with three rows.
+The first row should have two columns:
+             ○ width of the first column is 2/3 of the screen width
+             ○ width of the second column is 1/3 of the screen width
+The second row should contain three columns:
+             ○ columns should be the same width
+The third row should have two columns:
+             ○ both columns should be the same width -->
+
+<body>
+
+    <div class="container">
+
+        <div class="row gx-2">
+            <div class="col-lg-8 gy-2">
+                <div class="p-1 bg-light border rounded-1">1</div>
+            </div>
+            <div class="col-lg-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">2</div>
+            </div>
+        </div>
+
+        <div class="row gx-2">
+            <div class="col-lg-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">3</div>
+            </div>
+            <div class="col-lg-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">4</div>
+            </div>
+            <div class="col-lg-4 gy-2">
+                <div class="p-1 bg-light border rounded-1">5</div>
+            </div>
+        </div>
+
+        <div class="row gx-2">
+            <div class="col-lg-6 gy-2">
+                <div class=" bg-light p-1 border rounded-1">6</div>
+            </div>
+            <div class="col-lg-6 gy-2">
+                <div class=" bg-light p-1 border rounded-1">7</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bundle Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
