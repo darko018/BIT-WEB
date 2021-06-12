@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+#bg {
+    background-image: url(./img/field.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#player {
+    height: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#stop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px 30px;
+    background-color: rgb(193,57,43);
+    color: white;
+}
