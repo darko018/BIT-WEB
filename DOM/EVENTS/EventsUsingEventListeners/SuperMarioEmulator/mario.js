@@ -1,8 +1,8 @@
-var mario = document.getElementById("#mario");
+var mario = document.getElementById("mario");
 var grass = document.querySelector("body");
 var xPos = 0;
 var yPos = "0px";
-
+console.log(mario);
 
 function moveBackgroundRight(event) {
     console.log(grass.style);
@@ -21,15 +21,17 @@ function moveBackgroundRight(event) {
     if (event.keyCode === 39) {
       mario.src = "./img/mario_running.gif";
       mario.style.width = "120px";
-      document.removeEventListener("keydown", switchImgSrcRight);
+      
     }
+    document.removeEventListener("keydown", switchImgSrcRight);
   }
   function switchImgSrcLeft(event) {
     if (event.keyCode === 37) {
-      mario.src = "img/mario_running_left.gif";
+      mario.src = "./img/mario_running_left.gif";
       img.style.width = "120px";
-      document.removeEventListener("keydown", switchImgSrcLeft);
+      
     }
+    document.removeEventListener("keydown", switchImgSrcLeft);
   }
   function stopMoving(event) {
     if (!(event.keyCode === 39) || !(event.keyCode === 37)) {
