@@ -1,18 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-  }
-  body {
-    background-image: url("img/bg.jpg");
-    background-repeat: repeat-x;
-    height: 90%;
-    background-size: contain;
-   
-  }
-  img {
-    position: absolute;
-    height: 150px;
-    top: 60%;
-    left: 45%;
-  }
+.main-container { 
+  position: relative;
+  background-image: url(./img/bg.jpg);
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  height: 100vh;
+}
+
+.mario {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  bottom:18%;
+  left:40%;
+
+}
