@@ -1,4 +1,3 @@
-
 function selectSecond(string){
     var second = document.querySelector("ul:nth-child(1)")
   second.className = "second";
