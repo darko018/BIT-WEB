@@ -3,7 +3,7 @@ body {
 }
 
 #bg {
-    background-image: url(./img/field.png);
+    background-image: url(/DOM/EVENTS/EventsUsingEventListeners/img/field.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,6 +22,6 @@ body {
     bottom: 0;
     right: 0;
     padding: 15px 30px;
-    background-color: rgb(193,57,43);
+    background-color: rgb(193, 57, 43);
     color: white;
 }
