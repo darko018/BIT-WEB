@@ -3,7 +3,7 @@ var request = $('#search-user').on('keyup', function (e) {
       clearReposTable();
   
       var inputSearch = e.target.value;
-      //console.log(userName);
+      // console.log(userName);
   
       var request = $.ajax({
         url: 'https://api.github.com/search/users?q=' + inputSearch + '&per_page=15'
